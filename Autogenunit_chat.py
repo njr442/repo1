@@ -175,8 +175,4 @@ if question is not None and question != "":
     #st.session_state.chat_history.append(AIMessage(content=response))
 
 
-#chat history
-#Tocken optimization
 
-#file out put
-#api key or directly through gemini
