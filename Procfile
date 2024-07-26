@@ -1,1 +1,1 @@
-web: python3 -m streamlit run main.py --port=$PORT
+web: python3 -m streamlit run Autogenunit_chat.py --port=$PORT
