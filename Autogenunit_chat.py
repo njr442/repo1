@@ -9,7 +9,7 @@ import os
 import base64
 #import vertexai
 #from vertexai.generative_models import GenerativeModel, Part, FinishReason
-import vertexai.preview.generative_models as generative_models
+#import vertexai.preview.generative_models as generative_models
 from dotenv import load_dotenv
 
 from langchain_google_vertexai import VertexAI, HarmCategory, HarmBlockThreshold
