@@ -4,7 +4,6 @@ langchain_google_genai
 streamlit
 langchain_core
 google-generativeai
-os
 langchain-community
 langchain-openai 
 python-dotenv
