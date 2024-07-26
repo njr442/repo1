@@ -12,7 +12,7 @@ import base64
 #import vertexai.preview.generative_models as generative_models
 from dotenv import load_dotenv
 
-from langchain_google_vertexai import VertexAI, HarmCategory, HarmBlockThreshold
+# from langchain_google_vertexai import VertexAI, HarmCategory, HarmBlockThreshold
 load_dotenv()
 
 
