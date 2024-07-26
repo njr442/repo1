@@ -95,7 +95,7 @@ col1, col2 = st.columns([1, 4])  # Adjust the ratio as needed
 
 with col1:
     # Add logo using Streamlit's st.image function
-    st.image("./Screenshot4.png", width=220, use_column_width='225')  # Ensure the path is correct
+    st.image("./Screenshot4.png", width=222, use_column_width='225')  # Ensure the path is correct
 
 with col2:
     # Add heading with green text and centered alignmen
