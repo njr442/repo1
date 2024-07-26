@@ -1,13 +1,11 @@
 langchain
 openai
-langchain_google_genai
+#langchain_google_genai
 streamlit
 langchain_core
-google-generativeai
 langchain-community
 langchain-openai 
 python-dotenv
-google-ai-generativelanguage==0.2.0
+google-ai-generativelanguage
 google-cloud-aiplatform
 google-generativeai
-langchain_google_vertexai
