@@ -1,7 +1,10 @@
-FROM gliderlabs/alpine:3.4
-
-RUN apk-install python
-ADD . /app
+FROM python:3.10
+EXPOSE 8080
 WORKDIR /app
-CMD python -m SimpleHTTPServer 5000
-EXPOSE 5000
+COPY . ./
+RUN pip install -r requirements.txt
+ENTRYPOINT ["streamlit", "run", "main.py", "--server.port=8080"]
+
+
+
+#CMD streamlit run --server.port=8080 --server.enableCORS false main.py
