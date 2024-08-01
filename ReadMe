@@ -9,3 +9,5 @@ docker build -t jayanthraman442/genai-img-v1 -f Dockerfile.txt
 docker push jayanthraman442/genai-img-v1:latest
 
 *******************************************************
+
+If we integrate with git hub source code i..e, option-2 approach then we need only Procfile no docker file is required.
