@@ -1,0 +1,11 @@
+Building Image for cloud Run using Docker File i.e., option - 1(Container based )
+
+******** build & push image to cloud artifactory in cloud shell window *******
+
+docker build -t jayanthraman442/testrepo
+
+docker build -t jayanthraman442/genai-img-v1 -f Dockerfile.txt
+
+docker push jayanthraman442/genai-img-v1:latest
+
+*******************************************************
